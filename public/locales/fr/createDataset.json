@@ -1,0 +1,37 @@
+{
+    "pageTitle": "Créer un Dataset",
+    "metadataTip": {
+        "title": "Conseil sur les Métadonnées",
+        "content": "Après avoir ajouté le dataset, cliquez sur le bouton Modifier le Dataset pour ajouter plus de métadonnées."
+    },
+    "requiredFields": "Les astérisques indiquent les champs obligatoires",
+    "validationAlert": {
+        "title": "Erreur de Validation",
+        "content": "Des champs obligatoires ont été omis ou il y a eu une erreur de validation. Veuillez défiler vers le bas pour voir les détails."
+    },
+    "datasetForm": {
+        "field": {
+            "required": "{{displayName}} est requis",
+            "invalid": {
+                "url": "{{displayName}} n'est pas une URL valide",
+                "email": "{{displayName}} n'est pas un email valide",
+                "int": "{{displayName}} n'est pas un entier valide",
+                "float": "{{displayName}} n'est pas un nombre à virgule flottante valide",
+                "date": "{{displayName}} n'est pas une date valide. Veuillez utiliser le format {{dateFormat}}"
+            }
+        },
+        "status": {
+            "submitting": "Soumission en cours...",
+            "success": "Formulaire soumis avec succès !",
+            "failed": "Erreur : Échec de la soumission."
+        },
+        "addRowButton": "Ajouter",
+        "deleteRowButton": "Supprimer"
+    },
+    "datasetFormStates": {
+        "submitting": "Soumission du Formulaire",
+        "submissionSuccess": "Soumission du formulaire réussie"
+    },
+    "saveButton": "Sauvegarder le Dataset",
+    "cancelButton": "Annuler"
+}

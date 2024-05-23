@@ -1,0 +1,12 @@
+{
+    "signUp": "التسجيل",
+    "logIn": "تسجيل الدخول",
+    "logOut": "تسجيل الخروج",
+    "brandTitle": "Dataverse",
+    "brandLogoImage": "شعار علامة Dataverse",
+    "navigation": {
+        "addData": "إضافة بيانات",
+        "newCollection": "مجموعة جديدة",
+        "newDataset": "مجموعة بيانات جديدة"
+    }
+}

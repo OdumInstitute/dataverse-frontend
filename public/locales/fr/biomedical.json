@@ -1,0 +1,60 @@
+{
+    "biomedical": {
+      "name": "Métadonnées des Sciences de la Vie",
+      "datasetField": {
+        "studyDesignType": {
+          "name": "Type de Conception",
+          "description": "Types de conception basés sur le plan expérimental global."
+        },
+        "studyOtherDesignType": {
+          "name": "Autre Type de Conception",
+          "description": "Si Autre a été sélectionné dans Type de Conception, lister tout autre type de conception utilisé dans cet Ensemble de Données."
+        },
+        "studyFactorType": { 
+          "name": "Type de Facteur", 
+          "description": "Facteurs utilisés dans l'Ensemble de Données." 
+        },
+        "studyOtherFactorType": {
+          "name": "Autre Type de Facteur",
+          "description": "Si Autre a été sélectionné dans Type de Facteur, lister tout autre type de facteur utilisé dans cet Ensemble de Données."
+        },
+        "studyAssayOrganism": {
+          "name": "Organisme",
+          "description": "Le nom taxonomique de l'organisme utilisé dans l'Ensemble de Données ou d'où provient le matériel biologique de départ."
+        },
+        "studyAssayOtherOrganism": {
+          "name": "Autre Organisme",
+          "description": "Si Autre a été sélectionné pour Organisme, lister tout autre organisme qui a été utilisé dans cet Ensemble de Données. Les termes de la Taxonomie NCBI sont recommandés."
+        },
+        "studyAssayMeasurementType": {
+          "name": "Type de Mesure",
+          "description": "Un terme pour qualifier le point final, ou ce qui est mesuré (par exemple, profilage de l'expression génique ; identification des protéines)."
+        },
+        "studyAssayOtherMeasurmentType": {
+          "name": "Autre Type de Mesure",
+          "description": "Si Autre a été sélectionné dans Type de Mesure, lister tout autre type de mesure utilisé. Les termes du NCBO Bioportal sont recommandés."
+        },
+        "studyAssayTechnologyType": {
+          "name": "Type de Technologie",
+          "description": "Un terme pour identifier la technologie utilisée pour effectuer la mesure (par exemple, microarray d'ADN ; spectrométrie de masse)."
+        },
+        "studyAssayOtherTechnologyType": {
+          "name": "Autre Type de Technologie",
+          "description": "Si Autre a été sélectionné dans Type de Technologie, lister tout autre type de technologie utilisé dans cet Ensemble de Données."
+        },
+        "studyAssayPlatform": {
+          "name": "Plateforme Technologique",
+          "description": "Le fabricant et le nom de la plateforme technologique utilisée pour l'analyse (par exemple, Bruker AVANCE)."
+        },
+        "studyAssayOtherPlatform": {
+          "name": "Autre Plateforme Technologique",
+          "description": "Si Autre a été sélectionné dans Plateforme Technologique, lister toute autre plateforme technologique utilisée dans cet Ensemble de Données."
+        },
+        "studyAssayCellType": {
+          "name": "Type de Cellule",
+          "description": "Le nom de la lignée cellulaire à partir de laquelle provient la source ou l'échantillon."
+        }
+      }
+    }
+  }
+  

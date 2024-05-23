@@ -1,0 +1,17 @@
+// src/assets/styles/global.scss
+body {
+  direction: ltr;
+}
+
+body.rtl {
+  direction: rtl;
+}
+
+.container {
+  // display: flex;
+  flex-direction: row;
+}
+
+body.rtl .container {
+  flex-direction: row-reverse;
+}

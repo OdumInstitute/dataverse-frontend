@@ -1,0 +1,147 @@
+{
+    "filesLoading": "رمز التحميل الخاص بالملفات",
+    "table": {
+        "rowSelection": {
+            "filesSelected_one": "{{count}} ملف تم تحديده حاليًا.",
+            "filesSelected_other": "{{count}} ملفات تم تحديدها حاليًا.",
+            "selectAll": "حدد جميع {{count}} الملفات في هذه المجموعة.",
+            "clearSelection": "مسح التحديد."
+        },
+        "zipDownloadExceedsLimit": "يتجاوز الحجم الإجمالي للملفات المحددة ({{selectionTotalSize}}) للتنزيل حد ZIP البالغ {{zipDownloadSizeLimit}}. يرجى إلغاء تحديد بعض الملفات للمتابعة.",
+        "tabularData": {
+            "name": "بيانات جدوليّة",
+            "variables": "المتغيرات",
+            "observations": "الملاحظات"
+        },
+        "embargoDate": {
+            "embargoedWillBeUntil": "مسودة: سيتم حظرها حتى",
+            "embargoedUntil": "محظور حتى",
+            "embargoedWasThrough": "كان محظورًا حتى"
+        },
+        "downloads": "التنزيلات",
+        "date": {
+            "metadataReleased": "تم إصدار البيانات الوصفية",
+            "published": "منشور",
+            "deposited": "تم الإيداع"
+        },
+        "copyToClipboard": {
+            "clickToCopy": "انقر للنسخ",
+            "correctlyCopiedIcon": "تم النسخ إلى الحافظة بشكل صحيح",
+            "copyToClipboardIcon": "نسخ إلى الحافظة"
+        },
+        "noFiles": "لا توجد ملفات في هذه المجموعة."
+    },
+    "criteria": {
+        "sortBy": {
+            "title": "ترتيب",
+            "icon": "أيقونة الترتيب",
+            "options": {
+                "name_az": "الاسم (أ-ي)",
+                "name_za": "الاسم (ي-أ)",
+                "oldest": "الأقدم",
+                "newest": "الأحدث",
+                "size": "الحجم",
+                "type": "النوع"
+            }
+        },
+        "filters": {
+            "title": "تصفية حسب"
+        },
+        "filterByType": {
+            "title": "نوع الملف"
+        },
+        "filterByTag": {
+            "title": "علامات الملف"
+        },
+        "filterByAccess": {
+            "title": "الوصول",
+            "options": {
+                "all": "الكل",
+                "public": "عام",
+                "restricted": "مقيد",
+                "embargoed_public": "محظور ثم عام",
+                "embargoed_restricted": "محظور ثم مقيد"
+            }
+        },
+        "searchText": {
+            "placeholder": "ابحث في هذه المجموعة...",
+            "label": "بحث",
+            "submit": "إرسال البحث"
+        }
+    },
+    "actions": {
+        "title": "إجراءات الملف",
+        "buttons": "أزرار إجراءات الملف",
+        "optionsMenu": {
+            "title": "خيارات الملف",
+            "headers": {
+                "editOptions": "خيارات التحرير"
+            }
+        },
+        "alreadyDeletedAlert": {
+            "title": "تحرير الملف",
+            "message": "تم حذف هذا الملف بالفعل (أو استبداله) في النسخة الحالية. لا يمكن تحريره.",
+            "close": "إغلاق"
+        },
+        "noSelectedFilesAlert": {
+            "title": "تحديد ملف (ملفات)",
+            "message": "يرجى تحديد ملف أو أكثر.",
+            "close": "إغلاق"
+        },
+        "accessFileMenu": {
+            "title": "الوصول إلى الملف",
+            "headers": {
+                "fileAccess": "الوصول إلى الملف"
+            },
+            "downloadOptions": {
+                "title": "خيارات التنزيل",
+                "options": {
+                    "original": "تنسيق الملف الأصلي",
+                    "RData": "بيانات R",
+                    "tabular": "Tab-Delimited"
+                }
+            }
+        },
+        "editFilesMenu": {
+            "title": "تحرير الملفات",
+            "options": {
+                "metadata": "البيانات الوصفية",
+                "unrestrict": "إلغاء التقييد",
+                "restrict": "تقييد",
+                "replace": "استبدال",
+                "embargo": "حظر",
+                "provenance": "المصدر",
+                "delete": "حذف"
+            }
+        },
+        "downloadFiles": {
+            "title": "تنزيل",
+            "options": {
+                "original": "التنسيق الأصلي",
+                "archival": "التنسيق الأرشيفي (.tab)"
+            }
+        }
+    },
+    "requestAccess": {
+        "title": "طلب الوصول",
+        "askToAcceptTerms": "يرجى تأكيد و/أو إكمال المعلومات المطلوبة أدناه لطلب الوصول إلى الملفات في هذه المجموعة",
+        "terms": "شروط الوصول للملفات المقيدة",
+        "confirmation": "قبول",
+        "cancel": "إلغاء",
+        "close": "إغلاق",
+        "embargoed": "الملفات غير متاحة خلال فترة الحظر المحددة",
+        "embargoedThenRestricted": "الملفات غير متاحة خلال فترة الحظر المحددة ومقيدة بعد ذلك",
+        "requestNotAllowed": "لا يجوز للمستخدمين طلب الوصول إلى الملفات",
+        "accessRequested": "تم طلب الوصول"
+    },
+    "ingest": {
+        "inProgress": "جارٍ الاستيعاب...",
+        "error": {
+            "info": "الملف متاح فقط بالتنسيق الأصلي",
+            "tabularIngest": "استيعاب جدولي",
+            "tabularIngestGuide": "ملفات البيانات الجدولية - دليل مستخدم Dataverse",
+            "reportMessage": "لم ينجح. {{reportMessage}}",
+            "reportMessageDefault": "لم ينجح. فشل الاستيعاب. لا توجد معلومات إضافية متاحة."
+        }
+    }
+}

@@ -4,6 +4,8 @@ import { SessionProvider } from './sections/session/SessionProvider'
 import { UserJSDataverseRepository } from './users/infrastructure/repositories/UserJSDataverseRepository'
 import { DataverseApiAuthMechanism } from '@iqss/dataverse-client-javascript/dist/core/infra/repositories/ApiConfig'
 import { BASE_URL } from './config'
+import { LanguageProvider } from './shared/LanguageContext';
+import './assets/styles/global.scss';
 
 if (BASE_URL === '') {
   throw Error('VITE_DATAVERSE_BACKEND_URL environment variable should be specified.')
@@ -14,9 +16,11 @@ if (BASE_URL === '') {
 const userRepository = new UserJSDataverseRepository()
 function App() {
   return (
-    <SessionProvider repository={userRepository}>
-      <Router />
-    </SessionProvider>
+    <LanguageProvider>
+      <SessionProvider repository={userRepository}>
+        <Router />
+      </SessionProvider>
+    </LanguageProvider>
   )
 }
 

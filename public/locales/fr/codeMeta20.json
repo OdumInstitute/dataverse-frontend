@@ -1,0 +1,108 @@
+{
+    "codeMeta20": {
+      "name": "Métadonnées Logicielles (CodeMeta v2.0)",
+      "datasetField": {
+        "codeVersion": {
+          "name": "Version du Logiciel",
+          "description": "Version de l'instance logicielle, suivant généralement une convention comme SemVer, etc."
+        },
+        "developmentStatus": {
+          "name": "Statut du Développement",
+          "description": "Description du statut de développement, par exemple en cours (wip), actif, etc. Voir repostatus.org pour plus d'informations."
+        },
+        "codeRepository": {
+          "name": "Dépôt de Code",
+          "description": "Lien vers le dépôt où se trouve le code non compilé, lisible par l'humain et le code associé (SVN, GitHub, CodePlex, instance institutionnelle de GitLab, Gitea, etc.)."
+        },
+        "applicationCategory": {
+          "name": "Catégorie d'Application",
+          "description": "Type d'application logicielle, par exemple Simulation, Analyse, Visualisation."
+        },
+        "applicationSubCategory": {
+          "name": "Sous-catégorie d'Application",
+          "description": "Sous-catégorie de l'application, par exemple Jeu d'Arcade."
+        },
+        "programmingLanguage": {
+          "name": "Langage de Programmation",
+          "description": "Les langages de programmation utilisés pour implémenter le logiciel (par exemple Python, C++, Matlab, Fortran, Java, Julia, ...)"
+        },
+        "runtimePlatform": {
+          "name": "Plateforme d'Exécution",
+          "description": "Plateforme d'exécution ou dépendances de l'interpréteur de scripts (par exemple Java 11, Python 3.10 ou .Net Framework 4.8)."
+        },
+        "operatingSystem": {
+          "name": "Systèmes d'Exploitation",
+          "description": "Systèmes d'exploitation pris en charge (par exemple Windows 10, OSX 11.3, Android 11)."
+        },
+        "targetProduct": {
+          "name": "Produit Cible",
+          "description": "Système d'exploitation cible / Produit auquel le code s'applique. Si applicable à plusieurs versions, seul le nom du produit peut être utilisé."
+        },
+        "buildInstructions": {
+          "name": "Instructions de Construction",
+          "description": "Lien vers les instructions d'installation/documentation"
+        },
+        "softwareRequirementsItem": {
+          "name": "Exigences Logicielles",
+          "description": "Dépendances logicielles requises"
+        },
+        "softwareRequirements": {
+          "name": "Nom & Version",
+          "description": "Nom et version de la dépendance logicielle/bibliothèque requise"
+        },
+        "softwareRequirementsInfoUrl": {
+          "name": "URL d'Information",
+          "description": "Lien vers la page d'accueil ou la documentation de la logiciel/bibliothèque requise (idéalement aussi versionnée)"
+        },
+        "softwareSuggestionsItem": {
+          "name": "Suggestions Logicielles",
+          "description": "Dépendances optionnelles, par exemple pour des fonctionnalités optionnelles, développement de code, etc."
+        },
+        "softwareSuggestions": {
+          "name": "Nom & Version",
+          "description": "Nom et version de la dépendance logicielle/bibliothèque optionnelle"
+        },
+        "softwareSuggestionsInfoUrl": {
+          "name": "URL d'Information",
+          "description": "Lien vers la page d'accueil ou la documentation de la logiciel/bibliothèque optionnelle (idéalement aussi versionnée)"
+        },
+        "memoryRequirements": {
+          "name": "Exigences Mémoire",
+          "description": "Exigences minimales de mémoire."
+        },
+        "processorRequirements": {
+          "name": "Exigences Processeur",
+          "description": "Architecture du processeur ou autres exigences CPU pour exécuter l'application (par exemple IA64)."
+        },
+        "storageRequirements": {
+          "name": "Exigences de Stockage",
+          "description": "Exigences minimales de stockage (par exemple espace libre requis)."
+        },
+        "permissions": {
+          "name": "Permissions",
+          "description": "Permission(s) requise(s) pour exécuter le code (par exemple, une application mobile peut nécessiter un accès internet complet ou fonctionner uniquement en wifi)."
+        },
+        "softwareHelp": {
+          "name": "Aide/Documentation Logicielle",
+          "description": "Lien vers les textes d'aide ou la documentation"
+        },
+        "readme": {
+          "name": "Lisez-moi",
+          "description": "Lien vers le README du projet"
+        },
+        "releaseNotes": {
+          "name": "Notes de Version",
+          "description": "Lien vers les notes de version"
+        },
+        "contIntegration": {
+          "name": "Intégration Continue",
+          "description": "Lien vers le service d'intégration continue"
+        },
+        "issueTracker": {
+          "name": "Suivi des Problèmes",
+          "description": "Lien vers le système de signalement des bugs ou de suivi des problèmes logiciels"
+        }
+      }
+    }
+  }
+  

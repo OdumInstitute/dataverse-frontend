@@ -1,0 +1,112 @@
+{
+    "astrophysics": {
+      "name": "Métadonnées d'astronomie et d'astrophysique",
+      "datasetField": {
+        "astroType": {
+          "name": "Type",
+          "description": "La nature ou le genre du contenu des fichiers dans l'ensemble de données."
+        },
+        "astroFacility": {
+          "name": "Établissement",
+          "description": "L'observatoire ou l'établissement où les données ont été obtenues."
+        },
+        "astroInstrument": {
+          "name": "Instrument",
+          "description": "L'instrument utilisé pour collecter les données."
+        },
+        "astroObject": {
+          "name": "Objet",
+          "description": "Objets astronomiques représentés dans les données (les noms reconnaissables par SIMBAD sont préférés)."
+        },
+        "resolution.Spatial": {
+          "name": "Résolution Spatiale",
+          "description": "La résolution spatiale (angulaire) typique des observations, en degrés décimaux."
+        },
+        "resolution.Spectral": {
+          "name": "Résolution Spectrale",
+          "description": "La résolution spectrale typique des observations, exprimée comme le rapport λ/Δλ."
+        },
+        "resolution.Temporal": {
+          "name": "Résolution Temporelle",
+          "description": "La résolution temporelle typique des observations, donnée en secondes."
+        },
+        "coverage.Spectral.Bandpass": {
+          "name": "Bande Passante",
+          "description": "Nom conventionnel de la bande passante"
+        },
+        "coverage.Spectral.CentralWavelength": {
+          "name": "Longueur d'onde Centrale (m)",
+          "description": "La longueur d'onde centrale de la bande passante spectrale, en mètres. Entrez un nombre à virgule flottante."
+        },
+        "coverage.Spectral.Wavelength": {
+          "name": "Plage de Longueurs d'onde",
+          "description": "La longueur d'onde minimale et maximale de la bande passante spectrale. Entrez un nombre à virgule flottante."
+        },
+        "coverage.Spectral.MinimumWavelength": {
+          "name": "Minimum (m)",
+          "description": "La longueur d'onde minimale de la bande passante spectrale, en mètres. Entrez un nombre à virgule flottante."
+        },
+        "coverage.Spectral.MaximumWavelength": {
+          "name": "Maximum (m)",
+          "description": "La longueur d'onde maximale de la bande passante spectrale, en mètres. Entrez un nombre à virgule flottante."
+        },
+        "coverage.Temporal": {
+          "name": "Période de Données",
+          "description": "Période couverte par les données."
+        },
+        "coverage.Temporal.StartTime": {
+          "name": "Début",
+          "description": "Date de début de l'ensemble de données (AAAA-MM-JJ)"
+        },
+        "coverage.Temporal.StopTime": {
+          "name": "Fin",
+          "description": "Date de fin de l'ensemble de données (AAAA-MM-JJ)"
+        },
+        "coverage.Spatial": {
+          "name": "Couverture Céleste",
+          "description": "La couverture céleste de l'objet de données."
+        },
+        "coverage.Depth": {
+          "name": "Profondeur de Couverture",
+          "description": "La profondeur de couverture (ou sensibilité) typique de l'objet de données en Jy"
+        },
+        "coverage.ObjectDensity": {
+          "name": "Densité d'Objets",
+          "description": "La densité typique d'objets, d'entrées de catalogue, de pointages de télescopes, etc., dans le ciel, en nombre par degré carré. Entrez un nombre à virgule flottante."
+        },
+        "coverage.ObjectCount": {
+          "name": "Nombre d'Objets",
+          "description": "Le nombre total d'objets, d'entrées de catalogue, etc., dans l'objet de données. Entrez un entier."
+        },
+        "coverage.SkyFraction": {
+          "name": "Fraction du Ciel",
+          "description": "La fraction du ciel représentée dans les observations, allant de 0 à 1. Entrez un nombre à virgule flottante."
+        },
+        "coverage.Polarization": {
+          "name": "Polarisation",
+          "description": "La couverture de la polarisation"
+        },
+        "redshiftType": {
+          "name": "Type de Décalage vers le Rouge",
+          "description": "Chaîne de caractères 'Décalage vers le Rouge'; ou 'Optique' ou 'Radio' définitions de la vitesse Doppler utilisée dans l'objet de données."
+        },
+        "resolution.Redshift": {
+          "name": "Résolution de Décalage vers le Rouge",
+          "description": "La résolution en décalage vers le rouge (sans unité) ou vitesse Doppler (km/s) dans l'objet de données. Entrez un nombre à virgule flottante."
+        },
+        "coverage.RedshiftValue": {
+          "name": "Valeur de Décalage vers le Rouge",
+          "description": "La valeur du décalage vers le rouge (sans unité) ou vitesse Doppler (km/s) dans l'objet de données. Entrez un nombre à virgule flottante."
+        },
+        "coverage.Redshift.MinimumValue": {
+          "name": "Minimum",
+          "description": "La valeur minimale du décalage vers le rouge (sans unité) ou vitesse Doppler (km/s) dans l'objet de données. Entrez un nombre à virgule flottante."
+        },
+        "coverage.Redshift.MaximumValue": {
+          "name": "Maximum",
+          "description": "La valeur maximale du décalage vers le rouge (sans unité) ou vitesse Doppler (km/s) dans l'objet de données. Entrez un nombre à virgule flottante."
+        }
+      }
+    }
+  }
+  

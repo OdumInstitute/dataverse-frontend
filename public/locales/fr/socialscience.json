@@ -1,0 +1,111 @@
+{
+    "socialscience": {
+        "name": "Métadonnées en Sciences Sociales et Humanités",
+        "datasetField": {
+            "unitOfAnalysis": {
+                "name": "Unité d'Analyse",
+                "description": "Unité de base d'analyse ou d'observation que ce Dataset décrit, telle que les individus, les familles/ménages, les groupes, les institutions/organisations, les unités administratives, et plus encore. Pour des informations sur le vocabulaire contrôlé du DDI pour cet élément, veuillez consulter la page web DDI à http://www.ddialliance.org/controlled-vocabularies."
+            },
+            "universe": {
+                "name": "Univers",
+                "description": "Description de la population couverte par les données dans le fichier; le groupe de personnes ou d'autres éléments qui sont l'objet de l'étude et auxquels les résultats de l'étude se réfèrent. L'âge, la nationalité et la résidence aident couramment à délimiter un univers donné, mais de nombreux autres facteurs peuvent être utilisés, tels que les limites d'âge, le sexe, l'état civil, la race, le groupe ethnique, la nationalité, le revenu, le statut de vétéran, les condamnations pénales, et plus encore. L'univers peut être composé d'éléments autres que des personnes, tels que des unités de logement, des cas judiciaires, des décès, des pays, etc. En général, il devrait être possible de dire à partir de la description de l'univers si un individu donné ou un élément est membre de la population à l'étude. Connu également sous le nom d'univers d'intérêt, population d'intérêt et population cible."
+            },
+            "timeMethod": {
+                "name": "Méthode Temporelle",
+                "description": "La méthode temporelle ou la dimension temporelle de la collecte des données, telle que panel, transversale, tendance, série temporelle, ou autre."
+            },
+            "dataCollector": {
+                "name": "Collecteur de Données",
+                "description": "Individu, agence ou organisation responsable de l'administration du questionnaire ou de l'entretien ou de la compilation des données."
+            },
+            "collectorTraining": {
+                "name": "Formation du Collecteur",
+                "description": "Type de formation fournie au collecteur de données"
+            },
+            "frequencyOfDataCollection": {
+                "name": "Fréquence",
+                "description": "Si les données collectées incluent plus d'un point dans le temps, indiquez la fréquence à laquelle les données ont été collectées; c'est-à-dire, mensuellement, trimestriellement, ou autre."
+            },
+            "samplingProcedure": {
+                "name": "Procédure d'Échantillonnage",
+                "description": "Type d'échantillon et conception de l'échantillon utilisés pour sélectionner les répondants de l'enquête pour représenter la population. Peut inclure une référence à la taille de l'échantillon cible et à la fraction d'échantillonnage."
+            },
+            "targetSampleSize": {
+                "name": "Taille de l'Échantillon Cible",
+                "description": "Informations spécifiques concernant la taille de l'échantillon cible, la taille de l'échantillon réelle et la formule utilisée pour déterminer cela."
+            },
+            "targetSampleActualSize": {
+                "name": "Réel",
+                "description": "Taille de l'échantillon réelle."
+            },
+            "targetSampleSizeFormula": {
+                "name": "Formule",
+                "description": "Formule utilisée pour déterminer la taille de l'échantillon cible."
+            },
+            "deviationsFromSampleDesign": {
+                "name": "Déviations Majeures de la Conception de l'Échantillon",
+                "description": "Montrez la correspondance ainsi que les écarts entre les unités échantillonnées (obtenues) et les statistiques disponibles pour la population (âge, rapport de sexe, état civil, etc.) dans son ensemble."
+            },
+            "collectionMode": {
+                "name": "Mode de Collecte",
+                "description": "Méthode utilisée pour collecter les données; caractéristiques de l'instrumentation (par exemple, entretien téléphonique, questionnaire par courrier, ou autre)."
+            },
+            "researchInstrument": {
+                "name": "Type d'Instrument de Recherche",
+                "description": "Type d'instrument de collecte de données utilisé. Structuré indique un instrument dans lequel toutes les personnes interrogées répondent aux mêmes questions/tests, éventuellement avec des réponses pré-codées. Si une petite partie de ce questionnaire comprend des questions ouvertes, fournissez les commentaires appropriés. Semi-structuré indique que l'instrument de recherche contient principalement des questions ouvertes. Non structuré indique que des entretiens approfondis ont été menés."
+            },
+            "dataCollectionSituation": {
+                "name": "Caractéristiques de la Situation de Collecte de Données",
+                "description": "Description des aspects notables de la situation de collecte des données. Comprend des informations sur des facteurs tels que la coopération des répondants, la durée des entretiens, le nombre de rappels, ou similaire."
+            },
+            "actionsToMinimizeLoss": {
+                "name": "Actions pour Minimiser les Pertes",
+                "description": "Résumé des actions entreprises pour minimiser la perte de données. Inclure des informations sur des actions telles que les visites de suivi, les vérifications de supervision, l'appariement historique, l'estimation, et ainsi de suite."
+            },
+            "controlOperations": {
+                "name": "Opérations de Contrôle",
+                "description": "Méthodes pour faciliter le contrôle des données effectué par l'investigateur principal ou par l'archive de données."
+            },
+            "weighting": {
+                "name": "Pondération",
+                "description": "L'utilisation de procédures d'échantillonnage peut rendre nécessaire l'application de poids pour produire des résultats statistiques précis. Décrit les critères d'utilisation des poids dans l'analyse d'une collection. Si une formule ou un coefficient de pondération a été développé, la formule est fournie, ses éléments sont définis, et il est indiqué comment la formule a été appliquée aux données."
+            },
+            "cleaningOperations": {
+                "name": "Opérations de Nettoyage",
+                "description": "Méthodes utilisées pour nettoyer la collection de données, telles que la vérification de la cohérence, la vérification des codes aberrants, ou autre."
+            },
+            "datasetLevelErrorNotes": {
+                "name": "Notes d'Erreur au Niveau de l'Étude",
+                "description": "Élément de note utilisé pour toute information annotant ou clarifiant la méthodologie et le traitement de l'étude. "
+            },
+            "responseRate": {
+                "name": "Taux de Réponse",
+                "description": "Pourcentage des membres de l'échantillon qui ont fourni des informations."
+            },
+            "samplingErrorEstimates": {
+                "name": "Estimations de l'Erreur d'Échantillonnage",
+                "description": "Mesure de la précision avec laquelle on peut estimer une valeur de population à partir d'un échantillon donné."
+            },
+            "otherDataAppraisal": {
+                "name": "Autres Formes d'Évaluation des Données",
+                "description": "Autres questions relatives à l'évaluation des données. Décrire des questions telles que la variance de réponse, le taux de non-réponse et les tests de biais, les biais d'intervieweur et de réponse, les niveaux de confiance, le biais de question, ou similaire."
+            },
+            "socialScienceNotes": {
+                "name": "Notes",
+                "description": "Notes générales sur ce Dataset."
+            },
+            "socialScienceNotesType": {
+                "name": "Type",
+                "description": "Type de note."
+            },
+            "socialScienceNotesSubject": {
+                "name": "Sujet",
+                "description": "Sujet de la note."
+            },
+            "socialScienceNotesText": {
+                "name": "Texte",
+                "description": "Texte de cette note."
+            }
+        }
+    }
+}

@@ -1,0 +1,148 @@
+{
+    "filesLoading": "Symbole de chargement des fichiers",
+    "table": {
+      "rowSelection": {
+        "filesSelected_one": "{{count}} fichier est actuellement sélectionné.",
+        "filesSelected_other": "{{count}} fichiers sont actuellement sélectionnés.",
+        "selectAll": "Sélectionner tous les {{count}} fichiers dans ce dataset.",
+        "clearSelection": "Effacer la sélection."
+      },
+      "zipDownloadExceedsLimit": "La taille totale des fichiers sélectionnés ({{selectionTotalSize}}) pour le téléchargement dépasse la limite de zip de {{zipDownloadSizeLimit}}. Veuillez désélectionner certains fichiers pour continuer.",
+      "tabularData": {
+        "name": "Données Tabulaires",
+        "variables": "Variables",
+        "observations": "Observations"
+      },
+      "embargoDate": {
+        "embargoedWillBeUntil": "Brouillon: sera sous embargo jusqu'à",
+        "embargoedUntil": "Sous embargo jusqu'à",
+        "embargoedWasThrough": "Était sous embargo jusqu'à"
+      },
+      "downloads": "Téléchargements",
+      "date": {
+        "metadataReleased": "Métadonnées publiées",
+        "published": "Publié",
+        "deposited": "Déposé"
+      },
+      "copyToClipboard": {
+        "clickToCopy": "Cliquez pour copier",
+        "correctlyCopiedIcon": "Icône copiée correctement dans le presse-papiers",
+        "copyToClipboardIcon": "Icône copier dans le presse-papiers"
+      },
+      "noFiles": "Il n'y a pas de fichiers dans ce dataset."
+    },
+    "criteria": {
+      "sortBy": {
+        "title": "Trier",
+        "icon": "Icône Trier par",
+        "options": {
+          "name_az": "Nom (A-Z)",
+          "name_za": "Nom (Z-A)",
+          "oldest": "Le plus ancien",
+          "newest": "Le plus récent",
+          "size": "Taille",
+          "type": "Type"
+        }
+      },
+      "filters": {
+        "title": "Filtrer par"
+      },
+      "filterByType": {
+        "title": "Type de Fichier"
+      },
+      "filterByTag": {
+        "title": "Étiquettes de Fichier"
+      },
+      "filterByAccess": {
+        "title": "Accès",
+        "options": {
+          "all": "Tous",
+          "public": "Public",
+          "restricted": "Restreint",
+          "embargoed_public": "Embargo puis Public",
+          "embargoed_restricted": "Embargo puis Restreint"
+        }
+      },
+      "searchText": {
+        "placeholder": "Rechercher dans ce dataset...",
+        "label": "Rechercher",
+        "submit": "Soumettre la recherche"
+      }
+    },
+    "actions": {
+      "title": "Actions sur les Fichiers",
+      "buttons": "Boutons d'action pour les fichiers",
+      "optionsMenu": {
+        "title": "Options de Fichier",
+        "headers": {
+          "editOptions": "Options d'édition"
+        }
+      },
+      "alreadyDeletedAlert": {
+        "title": "Modifier le Fichier",
+        "message": "Ce fichier a déjà été supprimé (ou remplacé) dans la version actuelle. Il n'est pas possible de le modifier.",
+        "close": "Fermer"
+      },
+      "noSelectedFilesAlert": {
+        "title": "Sélectionner des Fichier(s)",
+        "message": "Veuillez sélectionner un ou plusieurs fichiers.",
+        "close": "Fermer"
+      },
+      "accessFileMenu": {
+        "title": "Accéder au Fichier",
+        "headers": {
+          "fileAccess": "Accès au Fichier"
+        },
+        "downloadOptions": {
+          "title": "Options de Téléchargement",
+          "options": {
+            "original": "Format de Fichier Original",
+            "RData": "Données R",
+            "tabular": "Délimité par des Tabulations"
+          }
+        }
+      },
+      "editFilesMenu": {
+        "title": "Modifier les Fichiers",
+        "options": {
+          "metadata": "Métadonnées",
+          "unrestrict": "Déréstringer",
+          "restrict": "Restreindre",
+          "replace": "Remplacer",
+          "embargo": "Embargo",
+          "provenance": "Provenance",
+          "delete": "Supprimer"
+        }
+      },
+      "downloadFiles": {
+        "title": "Télécharger",
+        "options": {
+          "original": "Format Original",
+          "archival": "Format Archival (.tab)"
+        }
+      }
+    },
+    "requestAccess": {
+      "title": "Demander l'Accès",
+      "askToAcceptTerms": "Veuillez confirmer et/ou compléter les informations nécessaires ci-dessous afin de demander l'accès aux fichiers dans ce dataset",
+      "terms": "Conditions d'Accès pour les Fichiers Restreints",
+      "confirmation": "Accepter",
+      "cancel": "Annuler",
+      "close": "Fermer",
+      "embargoed": "Les fichiers ne sont pas disponibles pendant l'embargo spécifié",
+      "embargoedThenRestricted": "Les fichiers ne sont pas disponibles pendant l'embargo spécifié et seront restreints par la suite",
+      "requestNotAllowed": "Les utilisateurs ne peuvent pas demander l'accès aux fichiers",
+      "accessRequested": "Accès Demandé"
+    },
+    "ingest": {
+      "inProgress": "Ingestion en cours...",
+      "error": {
+        "info": "Fichier disponible uniquement au format original",
+        "tabularIngest": "Ingestion de Données Tabulaires",
+        "tabularIngestGuide": "Guide de l'Utilisateur Dataverse - Fichiers de Données Tabulaires",
+        "reportMessage": "n'a pas réussi. {{reportMessage}}",
+        "reportMessageDefault": "n'a pas réussi. L'ingestion a échoué. Aucune information supplémentaire n'est disponible."
+      }
+    }
+  }
+  

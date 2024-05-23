@@ -1,0 +1,114 @@
+{
+    "filesTabTitle": "Fichiers",
+    "metadataTabTitle": "Métadonnées",
+    "anonymizedFieldValue": "retenu",
+    "license": {
+        "title": "Licence / Accord d'utilisation des données",
+        "altTextPrefix": "Image de licence pour "
+    },
+    "citation": {
+        "status": {
+            "draft": {
+                "description": "La VERSION PROVISOIRE sera remplacée dans la citation par la version sélectionnée une fois que le dataset aura été publié."
+            },
+            "deaccessioned": {
+                "description": "La VERSION RETIRÉE a été ajoutée à la citation pour cette version puisqu'elle n'est plus disponible."
+            }
+        }
+    },
+    "datasetActionButtons": {
+        "title": "Boutons d'action pour le Dataset",
+        "submitForReview": {
+            "enabled": "Soumettre pour Révision",
+            "disabled": "Soumis pour Révision"
+        },
+        "publish": {
+            "title": "Publier le Dataset",
+            "publish": "Publier",
+            "returnToAuthor": "Renvoyer à l'Auteur",
+            "changeCurationStatus": "Modifier le Statut de Curation",
+            "removeCurrentStatus": "Supprimer le Statut Actuel"
+        },
+        "linkDataset": {
+            "title": "Lier le Dataset"
+        },
+        "editDataset": {
+            "title": "Modifier le Dataset",
+            "filesUpload": "Fichiers (Téléchargement)",
+            "metadata": "Métadonnées",
+            "terms": "Conditions",
+            "privateUrl": "URL Privée",
+            "thumbnailsPlusWidgets": "Miniatures + Widgets",
+            "delete": {
+                "draft": "Supprimer la Version Provisoire",
+                "released": "Supprimer le Dataset"
+            },
+            "deaccession": "Retrait du Dataset",
+            "permissions": {
+                "title": "Permissions",
+                "dataset": "Dataset",
+                "file": "Fichier"
+            }
+        },
+        "accessDataset": {
+            "title": "Accéder au Dataset",
+            "downloadOptions": {
+                "header": "Options de Téléchargement",
+                "zip": "Télécharger ZIP",
+                "originalZip": "ZIP au Format Original",
+                "archivalZip": "ZIP au Format Archival (.tab)"
+            }
+        },
+        "uploadFiles": "Télécharger des Fichiers"
+    },
+    "alerts": {
+        "publishInProgress": {
+            "heading": "Publication en Cours",
+            "alertText": "Le dataset est verrouillé pendant que les identifiants persistants sont enregistrés ou mis à jour, et/ou que les fichiers physiques sont validés."
+        },
+        "filesUpdated": {
+            "heading": "Succès !",
+            "alertText": "Un ou plusieurs fichiers ont été mis à jour."
+        },
+        "termsUpdated": {
+            "heading": "Succès !",
+            "alertText": "Les conditions de ce dataset ont été mises à jour."
+        },
+        "thumbnailUpdated": {
+            "heading": "Succès !",
+            "alertText": "La miniature du dataset a été mise à jour."
+        },
+        "datasetDeleted": {
+            "heading": "Succès !",
+            "alertText": "Cette version provisoire du dataset a été supprimée."
+        },
+        "datasetCreated": {
+            "heading": "Succès !",
+            "alertText": "Ce dataset a été créé."
+        },
+        "metadataUpdated": {
+            "heading": "Succès !",
+            "alertText": "Les métadonnées de ce dataset ont été mises à jour."
+        },
+        "draftVersion": {
+            "heading": "Cette version provisoire doit être publiée",
+            "alertText": "Lorsque prêt pour le partage, veuillez <b>publier</b> afin que d'autres puissent voir ces changements"
+        },
+        "requestedVersionNotFound": {
+            "heading": "Info",
+            "alertText": "La version {{requestedVersion}} n'a pas été trouvée. Ceci est la version {{returnedVersion}}."
+        },
+        "requestedVersionNotFoundShowDraft": {
+            "heading": "Info",
+            "alertText": "La version {{requestedVersion}} n'a pas été trouvée. Ceci est la VERSION PROVISOIRE."
+        },
+        "shareUnpublishedDataset": {
+            "heading": "URL Privée pour un Dataset Non Publié",
+            "alertText": "Partagez privément ce dataset avant qu'il ne soit publié : {{privateUrl}}"
+        },
+        "unpublishedDataset": {
+            "heading": "URL Privée pour un Dataset Non Publié",
+            "alertText": "Ce dataset non publié est partagé de manière privée."
+        }
+    }
+}

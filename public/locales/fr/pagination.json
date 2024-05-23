@@ -1,0 +1,11 @@
+{
+    "results_one": "1 {{item}}",
+    "results_other": "{{start}} à {{end}} sur {{count}} {{item}}s",
+    "accumulated": {
+      "one": "{{count}} {{item}}",
+      "lessThanPageSize": "{{count}} {{item}}s",
+      "moreThanPageSize": "{{accumulated}} sur {{count}} {{item}}s vus"
+    },
+    "pageSize": "{{item}}s par page"
+  }
+  

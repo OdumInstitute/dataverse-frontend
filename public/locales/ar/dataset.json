@@ -1,0 +1,114 @@
+{
+    "filesTabTitle": "الملفات",
+    "metadataTabTitle": "البيانات الوصفية",
+    "anonymizedFieldValue": "محتجب",
+    "license": {
+        "title": "اتفاقية الترخيص / استخدام البيانات",
+        "altTextPrefix": "صورة الترخيص لـ "
+    },
+    "citation": {
+        "status": {
+            "draft": {
+                "description": "سيتم استبدال النسخة المسودة في الاستشهاد بالنسخة المختارة بمجرد نشر مجموعة البيانات."
+            },
+            "deaccessioned": {
+                "description": "تمت إضافة النسخة المحذوفة إلى الاستشهاد لهذه النسخة لأنها لم تعد متاحة."
+            }
+        }
+    },
+    "datasetActionButtons": {
+        "title": "أزرار إجراءات مجموعة البيانات",
+        "submitForReview": {
+            "enabled": "إرسال للمراجعة",
+            "disabled": "تم الإرسال للمراجعة"
+        },
+        "publish": {
+            "title": "نشر مجموعة البيانات",
+            "publish": "نشر",
+            "returnToAuthor": "إعادة إلى المؤلف",
+            "changeCurationStatus": "تغيير حالة التنسيق",
+            "removeCurrentStatus": "إزالة الحالة الحالية"
+        },
+        "linkDataset": {
+            "title": "ربط مجموعة البيانات"
+        },
+        "editDataset": {
+            "title": "تحرير مجموعة البيانات",
+            "filesUpload": "الملفات (تحميل)",
+            "metadata": "البيانات الوصفية",
+            "terms": "الشروط",
+            "privateUrl": "رابط خاص",
+            "thumbnailsPlusWidgets": "الصور المصغرة + الأدوات",
+            "delete": {
+                "draft": "حذف نسخة المسودة",
+                "released": "حذف مجموعة البيانات"
+            },
+            "deaccession": "إزالة مجموعة البيانات",
+            "permissions": {
+                "title": "الأذونات",
+                "dataset": "مجموعة البيانات",
+                "file": "الملف"
+            }
+        },
+        "accessDataset": {
+            "title": "الوصول إلى مجموعة البيانات",
+            "downloadOptions": {
+                "header": "خيارات التنزيل",
+                "zip": "تنزيل ZIP",
+                "originalZip": "تنسيق أصلي ZIP",
+                "archivalZip": "تنسيق أرشيفي (.tab) ZIP"
+            }
+        },
+        "uploadFiles": "تحميل الملفات"
+    },
+    "alerts": {
+        "publishInProgress": {
+            "heading": "جارٍ النشر",
+            "alertText": "مجموعة البيانات مغلقة بينما يتم تسجيل أو تحديث المعرفات الدائمة و/أو يتم التحقق من الملفات الفعلية."
+        },
+        "filesUpdated": {
+            "heading": "تم!",
+            "alertText": "تم تحديث ملف أو أكثر."
+        },
+        "termsUpdated": {
+            "heading": "تم!",
+            "alertText": "تم تحديث الشروط لهذه المجموعة من البيانات."
+        },
+        "thumbnailUpdated": {
+            "heading": "تم!",
+            "alertText": "تم تحديث الصورة المصغرة لمجموعة البيانات."
+        },
+        "datasetDeleted": {
+            "heading": "تم!",
+            "alertText": "تم حذف مسودة مجموعة البيانات هذه."
+        },
+        "datasetCreated": {
+            "heading": "تم!",
+            "alertText": "تم إنشاء مجموعة البيانات هذه."
+        },
+        "metadataUpdated": {
+            "heading": "تم!",
+            "alertText": "تم تحديث البيانات الوصفية لهذه المجموعة من البيانات."
+        },
+        "draftVersion": {
+            "heading": "يجب نشر نسخة المسودة هذه",
+            "alertText": "عند الاستعداد للمشاركة، يرجى <b>النشر</b> حتى يتمكن الآخرون من رؤية هذه التغييرات"
+        },
+        "requestedVersionNotFound": {
+            "heading": "معلومة",
+            "alertText": "لم يتم العثور على النسخة {{requestedVersion}}. هذه هي النسخة {{returnedVersion}}."
+        },
+        "requestedVersionNotFoundShowDraft": {
+            "heading": "معلومة",
+            "alertText": "لم يتم العثور على النسخة {{requestedVersion}}. هذه هي النسخة المسودة."
+        },
+        "shareUnpublishedDataset": {
+            "heading": "رابط خاص لمجموعة البيانات غير المنشورة",
+            "alertText": "شارك هذه المجموعة من البيانات بشكل خاص قبل نشرها: {{privateUrl}}"
+        },
+        "unpublishedDataset": {
+            "heading": "رابط خاص لمجموعة البيانات غير المنشورة",
+            "alertText": "تتم مشاركة هذه المجموعة غير المنشورة من البيانات بشكل خاص."
+        }
+    }
+}
