@@ -5,10 +5,8 @@ import { Route } from '../../Route.enum'
 import { useSession } from '../../session/SessionContext'
 import { useNavigate } from 'react-router-dom'
 import { BASE_URL } from '../../../config'
-import LanguageSwitcher from './language-switcher/LanguageSwitcher' // Import the LanguageSwitcher component
 
 const currentPage = 0
-
 export function Header() {
   const { t } = useTranslation('header')
   const { user, logout } = useSession()
@@ -49,7 +47,6 @@ export function Header() {
           <Navbar.Link href={`${BASE_URL}${Route.SIGN_UP}`}>{t('signUp')}</Navbar.Link>
         </>
       )}
-      <LanguageSwitcher /> 
     </Navbar>
   )
 }
