@@ -1,0 +1,107 @@
+{
+    "codeMeta20": {
+        "name": "بيانات البرمجيات (CodeMeta v2.0)",
+        "datasetField": {
+            "codeVersion": {
+                "name": "إصدار البرمجيات",
+                "description": "إصدار البرنامج، عادةً ما يتبع بعض الاتفاقيات مثل SemVer وغيرها."
+            },
+            "developmentStatus": {
+                "name": "حالة التطوير",
+                "description": "وصف حالة التطوير، مثل العمل الجاري (wip)، نشط، إلخ. انظر إلى repostatus.org لمزيد من المعلومات."
+            },
+            "codeRepository": {
+                "name": "مستودع الشيفرة",
+                "description": "رابط إلى المستودع حيث توجد الشيفرة القابلة للقراءة من قبل الإنسان والشيفرة ذات الصلة غير المجمعة (SVN، GitHub، CodePlex، GitLab المؤسسي، Gitea، إلخ)."
+            },
+            "applicationCategory": {
+                "name": "فئة التطبيق",
+                "description": "نوع تطبيق البرمجيات، مثل المحاكاة، التحليل، التصور."
+            },
+            "applicationSubCategory": {
+                "name": "الفئة الفرعية للتطبيق",
+                "description": "الفئة الفرعية للتطبيق، مثل لعبة أركيد."
+            },
+            "programmingLanguage": {
+                "name": "لغة البرمجة",
+                "description": "لغة البرمجة المستخدمة في تنفيذ البرمجيات (مثل Python، C++، Matlab، Fortran، Java، Julia،...)"
+            },
+            "runtimePlatform": {
+                "name": "منصة التشغيل",
+                "description": "منصة التشغيل أو تبعيات مترجم الشيفرات (مثل Java 11، Python 3.10 أو .Net Framework 4.8)."
+            },
+            "operatingSystem": {
+                "name": "أنظمة التشغيل",
+                "description": "أنظمة التشغيل المدعومة (مثل Windows 10، OSX 11.3، Android 11)."
+            },
+            "targetProduct": {
+                "name": "المنتج المستهدف",
+                "description": "نظام التشغيل / المنتج المستهدف الذي تنطبق عليه الشيفرة. إذا كانت تنطبق على عدة إصدارات، يمكن استخدام اسم المنتج فقط."
+            },
+            "buildInstructions": {
+                "name": "إرشادات البناء",
+                "description": "رابط إلى إرشادات التثبيت / الوثائق"
+            },
+            "softwareRequirementsItem": {
+                "name": "متطلبات البرمجيات",
+                "description": "تبعيات البرمجيات المطلوبة"
+            },
+            "softwareRequirements": {
+                "name": "الاسم والإصدار",
+                "description": "اسم وإصدار تبعية البرمجيات / المكتبة المطلوبة"
+            },
+            "softwareRequirementsInfoUrl": {
+                "name": "رابط المعلومات",
+                "description": "رابط إلى الصفحة الرئيسية للبرمجيات / المكتبة المطلوبة أو الوثائق (يفضل أيضًا أن تكون مصنفة حسب الإصدار)"
+            },
+            "softwareSuggestionsItem": {
+                "name": "اقتراحات البرمجيات",
+                "description": "التبعيات الاختيارية، مثل الميزات الاختيارية، تطوير الشيفرة، إلخ."
+            },
+            "softwareSuggestions": {
+                "name": "الاسم والإصدار",
+                "description": "اسم وإصدار تبعية البرمجيات / المكتبة الاختيارية"
+            },
+            "softwareSuggestionsInfoUrl": {
+                "name": "رابط المعلومات",
+                "description": "رابط إلى الصفحة الرئيسية للبرمجيات / المكتبة الاختيارية أو الوثائق (يفضل أيضًا أن تكون مصنفة حسب الإصدار)"
+            },
+            "memoryRequirements": {
+                "name": "متطلبات الذاكرة",
+                "description": "متطلبات الذاكرة الدنيا."
+            },
+            "processorRequirements": {
+                "name": "متطلبات المعالج",
+                "description": "معمارية المعالج أو متطلبات وحدة المعالجة المركزية الأخرى لتشغيل التطبيق (مثل IA64)."
+            },
+            "storageRequirements": {
+                "name": "متطلبات التخزين",
+                "description": "متطلبات التخزين الدنيا (مثل المساحة الحرة المطلوبة)."
+            },
+            "permissions": {
+                "name": "الأذونات",
+                "description": "الأذونات المطلوبة لتشغيل الشيفرة (على سبيل المثال، قد يتطلب تطبيق الهاتف المحمول الوصول الكامل إلى الإنترنت أو قد يعمل فقط على شبكة الواي فاي)."
+            },
+            "softwareHelp": {
+                "name": "مساعدة / وثائق البرمجيات",
+                "description": "رابط إلى نصوص المساعدة أو الوثائق"
+            },
+            "readme": {
+                "name": "ملف القراءة",
+                "description": "رابط إلى ملف README للمشروع"
+            },
+            "releaseNotes": {
+                "name": "ملاحظات الإصدار",
+                "description": "رابط إلى ملاحظات الإصدار"
+            },
+            "contIntegration": {
+                "name": "التكامل المستمر",
+                "description": "رابط إلى خدمة التكامل المستمر"
+            },
+            "issueTracker": {
+                "name": "متتبع القضايا",
+                "description": "رابط إلى نظام الإبلاغ عن الأخطاء أو تتبع القضايا البرمجية"
+            }
+        }
+    }
+}

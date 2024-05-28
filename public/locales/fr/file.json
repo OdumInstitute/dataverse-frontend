@@ -1,0 +1,52 @@
+{
+    "tabs": {
+        "metadata": "Métadonnées"
+    },
+    "subtext": "Ce fichier fait partie de \"{{datasetTitle}}\".",
+    "datasetCitationTitle": "Citation du Dataset",
+    "fileCitationTitle": "Citation du Fichier",
+    "fileAccess": {
+        "title": "Accès au Fichier",
+        "restricted": {
+            "name": "Restreint",
+            "icon": "Icône de Fichier Restreint"
+        },
+        "restrictedWithAccess": {
+            "name": "Restreint avec Accès Autorisé",
+            "icon": "Icône de Restreint avec accès"
+        },
+        "embargoed": {
+            "name": "Sous Embargo"
+        },
+        "public": {
+            "name": "Public",
+            "icon": "Icône de Fichier Public"
+        }
+    },
+    "metadata": {
+        "title": "Métadonnées du Fichier",
+        "fields": {
+            "preview": "Aperçu",
+            "labels": "Étiquettes de Fichier",
+            "persistentId": "ID Persistant du Fichier",
+            "downloadUrl": {
+                "title": "URL de Téléchargement",
+                "description": "Utilisez l'URL de téléchargement dans une commande Wget ou un gestionnaire de téléchargement pour éviter les téléchargements interrompus, les délais d'expiration ou d'autres échecs. <1>Guide de l'utilisateur - Téléchargement via URL</1>"
+            },
+            "unf": "UNF du Fichier",
+            "depositDate": "Date de Dépôt",
+            "metadataReleaseDate": "Date de Publication des Métadonnées",
+            "publicationDate": "Date de Publication",
+            "embargoReason": "Raison de l'Embargo",
+            "size": "Taille",
+            "type": "Type",
+            "variables": "Variables",
+            "observations": "Observations",
+            "directory": "Chemin du Fichier",
+            "description": "Description"
+        }
+    },
+    "actionButtons": {
+        "title": "Boutons d'Action pour Fichier"
+    }
+}

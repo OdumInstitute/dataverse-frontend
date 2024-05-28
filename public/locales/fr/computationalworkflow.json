@@ -1,0 +1,20 @@
+{
+    "computationalworkflow": {
+      "name": "Métadonnées de Flux de Travail Informatique",
+      "datasetField": {
+        "workflowType": {
+          "name": "Type de Flux de Travail Informatique",
+          "description": "Le type de flux de travail informatique, conçu pour composer et exécuter une série d'étapes de calcul ou de manipulation de données dans une application scientifique."
+        },
+        "workflowCodeRepository": {
+          "name": "URL du Dépôt de Code Externe",
+          "description": "Un lien vers le dépôt où se trouve le code non compilé, lisible par l'humain et le code associé (par exemple, GitHub, GitLab, SVN)"
+        },
+        "workflowDocumentation": {
+          "name": "Documentation",
+          "description": "Un lien (URL) vers la documentation ou le texte décrivant le flux de travail informatique et son utilisation"
+        }
+      }
+    }
+  }
+  

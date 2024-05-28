@@ -1,4 +1,5 @@
-@import "src/lib/assets/styles/design-tokens/colors.module";
+// @import "src/lib/assets/styles/design-tokens/colors.module.scss";
+@import '../../../assets/styles/design-tokens/colors.module.scss';
 
 .asterisk {
  color: $dv-danger-color;

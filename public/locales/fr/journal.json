@@ -1,0 +1,27 @@
+{
+    "journal": {
+        "name": "Métadonnées du Journal",
+        "datasetField": {
+            "journalVolumeIssue": {
+                "name": "Journal",
+                "description": "Indique le volume, le numéro et la date d'un journal avec lequel ce Dataset est associé."
+            },
+            "journalVolume": {
+                "name": "Volume",
+                "description": "Le volume du journal auquel ce Dataset est associé (par exemple, Volume 4)."
+            },
+            "journalIssue": {
+                "name": "Numéro",
+                "description": "Le numéro du journal auquel ce Dataset est associé (par exemple, Numéro 2, Automne)."
+            },
+            "journalPubDate": {
+                "name": "Date de Publication",
+                "description": "La date de publication de ce volume/numéro de journal, avec lequel ce Dataset est associé (par exemple, 1999)."
+            },
+            "journalArticleType": {
+                "name": "Type d'Article",
+                "description": "Indique le type d'article, par exemple un article de recherche, un commentaire, une revue de livre ou de produit, un rapport de cas, un calendrier, etc. (basé sur JATS)."
+            }
+        }
+    }
+}

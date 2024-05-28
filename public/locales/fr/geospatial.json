@@ -1,0 +1,52 @@
+{
+    "geospatial": {
+      "name": "Métadonnées Géospatiales",
+      "datasetField": {
+        "geographicCoverage": {
+          "name": "Couverture Géographique",
+          "description": "Informations sur la couverture géographique des données. Comprend l'étendue géographique totale des données."
+        },
+        "country": {
+          "name": "Pays / Nation",
+          "description": "Le pays ou la nation que le Dataset concerne."
+        },
+        "state": {
+          "name": "État / Province",
+          "description": "L'état ou la province que le Dataset concerne. Utilisez GeoNames pour une orthographe correcte et évitez les abréviations."
+        },
+        "city": {
+          "name": "Ville",
+          "description": "Le nom de la ville que le Dataset concerne. Utilisez GeoNames pour une orthographe correcte et évitez les abréviations."
+        },
+        "otherGeographicCoverage": {
+          "name": "Autre",
+          "description": "Autres informations sur la couverture géographique des données."
+        },
+        "geographicUnit": {
+          "name": "Unité Géographique",
+          "description": "Niveau le plus bas d'agrégation géographique couvert par le Dataset, par exemple, village, comté, région."
+        },
+        "geographicBoundingBox": {
+          "name": "Cadre Géographique",
+          "description": "La description géométrique fondamentale pour tout Dataset modélisant la géographie est le cadre géographique. Il décrit la boîte minimale, définie par les longitudes ouest et est et les latitudes nord et sud, qui inclut l'étendue géographique maximale de la couverture géographique du Dataset. Cet élément est utilisé dans la première étape d'une recherche basée sur les coordonnées. L'inclusion de cet élément dans le codebook est recommandée, mais est requise si la boîte polygonale de délimitation est incluse."
+        },
+        "westLongitude": {
+          "name": "Longitude Ouest",
+          "description": "Coordonnée la plus à l'ouest délimitant l'étendue géographique du Dataset. Une plage de valeurs valides, exprimée en degrés décimaux, est -180,0 <= Valeur de la Longitude Ouest <= 180,0."
+        },
+        "eastLongitude": {
+          "name": "Longitude Est",
+          "description": "Coordonnée la plus à l'est délimitant l'étendue géographique du Dataset. Une plage de valeurs valides, exprimée en degrés décimaux, est -180,0 <= Valeur de la Longitude Est <= 180,0."
+        },
+        "northLongitude": {
+          "name": "Latitude Nord",
+          "description": "Coordonnée la plus au nord délimitant l'étendue géographique du Dataset. Une plage de valeurs valides, exprimée en degrés décimaux, est -90,0 <= Valeur de la Latitude Nord <= 90,0."
+        },
+        "southLongitude": {
+          "name": "Latitude Sud",
+          "description": "Coordonnée la plus au sud délimitant l'étendue géographique du Dataset. Une plage de valeurs valides, exprimée en degrés décimaux, est -90,0 <= Valeur de la Latitude Sud <= 90,0."
+        }
+      }
+    }
+  }
+  

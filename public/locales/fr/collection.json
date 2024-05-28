@@ -1,0 +1,6 @@
+{
+    "noDatasetsMessage": {
+        "authenticated": "Ce dataverse ne contient actuellement aucun dataset. Vous pouvez en ajouter en utilisant le bouton Ajouter des Données sur cette page.",
+        "anonymous": "Ce dataverse ne contient actuellement aucun dataset. Veuillez <1>vous connecter</1> pour voir si vous pouvez y contribuer."
+    }
+}

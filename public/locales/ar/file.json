@@ -1,0 +1,53 @@
+{
+    "tabs": {
+      "metadata": "البيانات الوصفية"
+    },
+    "subtext": "هذا الملف جزء من \"{{datasetTitle}}\".",
+    "datasetCitationTitle": "استشهاد مجموعة البيانات",
+    "fileCitationTitle": "استشهاد الملف",
+    "fileAccess": {
+      "title": "الوصول إلى الملف",
+      "restricted": {
+        "name": "مقيد",
+        "icon": "أيقونة الملف المقيد"
+      },
+      "restrictedWithAccess": {
+        "name": "مقيد مع الوصول الممنوح",
+        "icon": "أيقونة الملف المقيد مع الوصول"
+      },
+      "embargoed": {
+        "name": "محظور"
+      },
+      "public": {
+        "name": "عام",
+        "icon": "أيقونة الملف العام"
+      }
+    },
+    "metadata": {
+      "title": "البيانات الوصفية للملف",
+      "fields": {
+        "preview": "معاينة",
+        "labels": "علامات الملف",
+        "persistentId": "معرف الملف الدائم",
+        "downloadUrl": {
+          "title": "رابط التنزيل",
+          "description": "استخدم رابط التنزيل في أمر Wget أو مدير التنزيل لتجنب الانقطاعات، أو انتهاء المهلات أو غيرها من الإخفاقات. <1>دليل المستخدم - التنزيل عبر الرابط</1>"
+        },
+        "unf": "UNF الملف",
+        "depositDate": "تاريخ الإيداع",
+        "metadataReleaseDate": "تاريخ إصدار البيانات الوصفية",
+        "publicationDate": "تاريخ النشر",
+        "embargoReason": "سبب الحظر",
+        "size": "الحجم",
+        "type": "النوع",
+        "variables": "المتغيرات",
+        "observations": "الملاحظات",
+        "directory": "مسار الملف",
+        "description": "الوصف"
+      }
+    },
+    "actionButtons": {
+      "title": "أزرار إجراءات الملف"
+    }
+  }
+  

@@ -1,6 +1,7 @@
 @import 'bootstrap/scss/functions';
 @import 'bootstrap/scss/variables';
-@import 'src/lib/assets/styles/design-tokens/colors.module';
+// @import 'src/lib/assets/styles/design-tokens/colors.module.scss';
+@import '../../assets/styles/design-tokens/colors.module.scss';
 
 .primary:not(#\#) {
     color: color-contrast($dv-primary-color);

@@ -1,0 +1,37 @@
+{
+    "pageTitle": "إنشاء مجموعة بيانات",
+    "metadataTip": {
+        "title": "نصيحة حول البيانات الوصفية",
+        "content": "بعد إضافة مجموعة البيانات، انقر على زر تحرير مجموعة البيانات لإضافة المزيد من البيانات الوصفية."
+    },
+    "requiredFields": "تشير العلامات النجمية إلى الحقول المطلوبة",
+    "validationAlert": {
+        "title": "خطأ في التحقق",
+        "content": "تم تفويت الحقول المطلوبة أو كان هناك خطأ في التحقق. يرجى التمرير لأسفل لرؤية التفاصيل."
+    },
+    "datasetForm": {
+        "field": {
+            "required": "{{displayName}} مطلوب",
+            "invalid": {
+                "url": "{{displayName}} ليس رابطًا صالحًا",
+                "email": "{{displayName}} ليس بريدًا إلكترونيًا صالحًا",
+                "int": "{{displayName}} ليس عددًا صحيحًا صالحًا",
+                "float": "{{displayName}} ليس عددًا عشريًا صالحًا",
+                "date": "{{displayName}} ليس تاريخًا صالحًا. يرجى استخدام التنسيق {{dateFormat}}"
+            }
+        },
+        "status": {
+            "submitting": "جاري الإرسال...",
+            "success": "تم إرسال النموذج بنجاح!",
+            "failed": "خطأ: فشل الإرسال."
+        },
+        "addRowButton": "إضافة",
+        "deleteRowButton": "حذف"
+    },
+    "datasetFormStates": {
+        "submitting": "جارٍ إرسال النموذج",
+        "submissionSuccess": "تم إرسال النموذج بنجاح"
+    },
+    "saveButton": "حفظ مجموعة البيانات",
+    "cancelButton": "إلغاء"
+}

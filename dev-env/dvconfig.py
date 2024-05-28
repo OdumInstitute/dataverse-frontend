@@ -1,5 +1,5 @@
 base_url = 'http://localhost:8000'
-api_token = '<DATAVERSE_API_TOKEN>'
+api_token = 'c928f125-033d-4130-b758-63e243b8d065'
 sample_data = [
 'data/dataverses/pums/pums.json',
 'data/dataverses/pums/datasets/2000pums5/2000pums5.json',

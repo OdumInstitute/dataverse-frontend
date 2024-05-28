@@ -1,0 +1,12 @@
+{
+    "signUp": "Inscription",
+    "logIn": "Connexion",
+    "logOut": "Déconnexion",
+    "brandTitle": "Dataverse",
+    "brandLogoImage": "Logo de la marque Dataverse",
+    "navigation": {
+        "addData": "Ajouter des Données",
+        "newCollection": "Nouvelle Collection",
+        "newDataset": "Nouveau Dataset"
+    }
+}

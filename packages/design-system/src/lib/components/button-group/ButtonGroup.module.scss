@@ -1,4 +1,5 @@
-@import "src/lib/assets/styles/design-tokens/colors.module";
+// @import "src/lib/assets/styles/design-tokens/colors.module.scss";
+@import '../../assets/styles/design-tokens/colors.module.scss';
 
 .border > button, .border > [role="group"] > button {
   border: 1px solid $dv-button-border-color;
